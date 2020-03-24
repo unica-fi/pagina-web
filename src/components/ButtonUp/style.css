@@ -1,0 +1,23 @@
+.button_container{
+    margin: 0;
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe16bff;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+}
+
+.button_icon_arrow{
+    margin: 0;
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    color: white;
+    position: relative;
+    transform: translateY(-2px);
+}
