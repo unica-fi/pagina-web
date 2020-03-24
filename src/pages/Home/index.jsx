@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
-import Footer from '../../components/Footer';
 import './style.css';
 
-class Home extends Component {
+class Mision extends Component {
     render() {
         return(
             <div>
-                <Footer/>
+                home
             </div>
         );
     }
 }
 
-export default Home;
+export default Mision;
