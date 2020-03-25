@@ -75,3 +75,8 @@
   transform: scale(0.9);
   background-color: #0383c6;
 }
+
+body{
+  margin: 0;
+  padding: 0;
+}

@@ -8,7 +8,7 @@ const content= 'Gestionar el desarrollo inform√°tico de la Facultad de Ingenier√
 class Vision extends Component {
     render() {
         return(
-            <div className='mision_container'>
+            <div className='vision_container'>
                 <Card title={title} content={content}/>
             </div>
         );
