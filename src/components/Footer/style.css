@@ -1,3 +1,8 @@
+@font-face{
+    font-family: 'Pacifico';
+    src: url('../../assets/fonts/Pacifico/Pacifico-Regular.ttf');
+}
+
 .footer_container{
     margin: 0;
     padding: 0;
@@ -7,7 +12,7 @@
 
 .footer_up{
     margin: 0;
-    padding: 15px 0;
+    padding: 0;
     width: 100%;
     height: auto;
     display: flex;
@@ -23,7 +28,9 @@
 }
 
 .footer_up h1{
-    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    font-weight: 100;
     padding: 0 400px;
 }
 

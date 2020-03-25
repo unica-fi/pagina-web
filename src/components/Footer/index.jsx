@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import unam from '../../images/UNAM.png';
-import fi from '../../images/FI.jpg';
+import unam from '../../assets/images/UNAM.png';
+import fi from '../../assets/images/FI.jpg';
 import ButtonUp from '../ButtonUp';
 import './style.css';
 

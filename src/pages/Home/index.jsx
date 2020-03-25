@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './style.css';
 
-class Mision extends Component {
+class Home extends Component {
     render() {
         return(
             <div>
@@ -11,4 +11,4 @@ class Mision extends Component {
     }
 }
 
-export default Mision;
+export default Home;

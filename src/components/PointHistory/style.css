@@ -1,0 +1,93 @@
+.history_content{
+    margin: 0;
+    padding: 0;
+}
+
+.point_history_container{
+    list-style: none;;
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+.point_history_container:nth-child(odd){
+    float: left;
+    clear: both;
+}
+
+.point_history_container:nth-child(even){
+    float: right;
+    clear: both;
+}
+
+.point_history_container:nth-child(odd)::before{
+    content: '';
+    position: absolute;
+    top: 35px;
+    right: -8px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #ffe16bff;
+    box-shadow: 0 0 0 3px #3e63deff;
+}
+
+.point_history_container:nth-child(even)::before{
+    content: '';
+    position: absolute;
+    top: 35px;
+    left: -6.5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #ffe16bff;
+    box-shadow: 0 0 0 3px #3e63deff;
+}
+
+.point_history_content{
+    margin: 0;
+    padding: 0 0 15px 0;
+    border: 1px solid #edededff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.history_title{
+    margin: 0;
+    padding: 10px 25px;
+    font-size: 25px;
+    font-weight: 400;
+    color: #022144ff;
+}
+
+.history_content{
+    margin: 0;
+    padding: 10px 25px;
+    text-align: justify;
+    font-size: 15px;
+    color: #677a8eff;
+}
+
+.point_history_container:nth-child(odd) .point_history_date{
+    margin: 0;
+    padding: 8px 16px;
+    position: absolute;
+    top: 15px;
+    right: -120px;
+}
+
+.point_history_container:nth-child(even) .point_history_date{
+    margin: 0;
+    padding: 8px 16px;
+    position: absolute;
+    top: 15px;
+    left: -120px;
+}
+
+.history_date{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    color: black;    
+}
