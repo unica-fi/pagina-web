@@ -1,4 +1,77 @@
-body{
-    margin: 0;
-    padding: 80px 0 0 0;
+#unicaStart {
+  background-color: #00a8ff;
+  height: 350px;
+  width: 100%-100px;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  align-items: center;
+  justify-items: center;
+}
+
+#unicaStart img{
+  width: 75%;
+}
+
+#unicaStart h1{
+  font-size: 3em;
+  color: #fff;
+  text-align: right;
+  letter-spacing: 0.15em;
+}
+
+#cards {
+  display: grid;
+  justify-items: center;
+}
+
+#cards section {
+  background-color: #fff;
+  width: 50%;
+  height: 300px;
+  padding: 20px;
+  margin-top: 175px;
+  border-radius: 10px;
+  display: grid;
+  align-items: center;
+}
+
+#cards section:nth-of-type(1){
+  box-shadow: 8px 8px 10px -7px rgba(0,0,0,0.75);
+}
+
+#cards .CardRight {
+  grid-template-columns: 40% 60%;
+}
+
+#cards .CardLeft {
+  grid-template-columns: 60% 40%;
+}
+
+#cards img {
+  width: 100%;
+
+}
+
+.contentCards p {
+  text-align: justify;
+}
+
+.contentCards input {
+  font-size: 1em;
+  padding: 0.5em 1.5em;
+  background-color: #00a8ff;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 0px 3px 6px #00000065;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  cursor: pointer;
+}
+
+.contentCards input:active {
+  transform: scale(0.9);
+  background-color: #0383c6;
 }
