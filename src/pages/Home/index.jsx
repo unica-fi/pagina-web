@@ -10,7 +10,7 @@ class Home extends Component {
             <div>
               <div id='unicaStart'>
                 <img src={unicaDorado} alt="unicaLogo"/>
-                <h1>Unidad de Servicios <br/> DE Cómputo Academico</h1>
+                <h1>Unidad de Servicios <br/> De Cómputo Academico</h1>
               </div>
 
               <div id='cards'>

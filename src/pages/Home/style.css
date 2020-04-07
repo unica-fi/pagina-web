@@ -1,5 +1,5 @@
 #unicaStart {
-  background-color: #00a8ff;
+  background-color: #3d66ecff;
   height: 350px;
   width: 100%-100px;
   padding: 50px;
@@ -14,7 +14,7 @@
 }
 
 #unicaStart h1{
-  font-size: 3em;
+  font-size: 2.85em;
   color: #fff;
   text-align: right;
   letter-spacing: 0.15em;
@@ -30,14 +30,15 @@
   width: 50%;
   height: 300px;
   padding: 20px;
-  margin-top: 175px;
+  margin-top: 150px;
   border-radius: 10px;
   display: grid;
   align-items: center;
 }
 
 #cards section:nth-of-type(1){
-  box-shadow: 8px 8px 10px -7px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border: 1px solid #edededff;
 }
 
 #cards .CardRight {
@@ -53,14 +54,19 @@
 
 }
 
+.contentCards h3 {
+  color: #112e4fff;
+}
+
 .contentCards p {
+  color: #112e4fff;
   text-align: justify;
 }
 
 .contentCards input {
   font-size: 1em;
   padding: 0.5em 1.5em;
-  background-color: #00a8ff;
+  background-color: #3d66ecff;
   color: #fff;
   border-radius: 5px;
   text-decoration: none;
@@ -78,5 +84,5 @@
 
 body{
   margin: 0;
-  padding: 0;
+  padding: 80px 0 0 0;
 }
