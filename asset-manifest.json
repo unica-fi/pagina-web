@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/pagina-web/static/css/main.c020ea21.chunk.css",
+    "main.js": "/pagina-web/static/js/main.87eb1360.chunk.js",
+    "main.js.map": "/pagina-web/static/js/main.87eb1360.chunk.js.map",
+    "runtime-main.js": "/pagina-web/static/js/runtime-main.9a783baa.js",
+    "runtime-main.js.map": "/pagina-web/static/js/runtime-main.9a783baa.js.map",
+    "static/js/2.5e4099a3.chunk.js": "/pagina-web/static/js/2.5e4099a3.chunk.js",
+    "static/js/2.5e4099a3.chunk.js.map": "/pagina-web/static/js/2.5e4099a3.chunk.js.map",
+    "index.html": "/pagina-web/index.html",
+    "precache-manifest.8389ec2930121eb543f23b7fa8911cc8.js": "/pagina-web/precache-manifest.8389ec2930121eb543f23b7fa8911cc8.js",
+    "service-worker.js": "/pagina-web/service-worker.js",
+    "static/css/main.c020ea21.chunk.css.map": "/pagina-web/static/css/main.c020ea21.chunk.css.map",
+    "static/js/2.5e4099a3.chunk.js.LICENSE.txt": "/pagina-web/static/js/2.5e4099a3.chunk.js.LICENSE.txt",
+    "static/media/EscudoFIVectorizadAzul2008PNG7x5.png": "/pagina-web/static/media/EscudoFIVectorizadAzul2008PNG7x5.8b219324.png",
+    "static/media/FI.jpg": "/pagina-web/static/media/FI.8caa89bc.jpg",
+    "static/media/style.css": "/pagina-web/static/media/Pacifico-Regular.9b94499c.ttf",
+    "static/media/UNAM.png": "/pagina-web/static/media/UNAM.31400d0d.png",
+    "static/media/escudounam_azul_m2008_png.png": "/pagina-web/static/media/escudounam_azul_m2008_png.4eee5db2.png",
+    "static/media/logo_azul_dorado.png": "/pagina-web/static/media/logo_azul_dorado.0cf3125a.png",
+    "static/media/logo_dorado.png": "/pagina-web/static/media/logo_dorado.2c3784c0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9a783baa.js",
+    "static/js/2.5e4099a3.chunk.js",
+    "static/css/main.c020ea21.chunk.css",
+    "static/js/main.87eb1360.chunk.js"
+  ]
+}
